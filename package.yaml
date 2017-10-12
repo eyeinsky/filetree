@@ -1,0 +1,67 @@
+name: filetree
+version: 0.0.1
+maintainer: eyeinsky <eyeinsky9@gmail.com>
+synopsis: Fine-grained handling of paths and filesystem trees
+description: Fine-grained handling of paths and filesystem trees
+license: MIT
+github: eyeinsky/filetree
+category: System
+
+dependencies:
+  - base
+  - lens
+  - bytestring
+  - containers
+  - directory
+  - mtl
+  - text
+  - transformers
+
+library:
+  source-dirs: src
+  exposed-modules:
+    - System.Path
+    - System.Path.Dir
+    - System.Path.File
+    - System.Path.IO
+    - System.File
+    - System.File.ByteString
+    - System.File.Text
+    - System.FSTree
+    - System.FSTree.Core
+    - System.FSTree.DSL
+
+default-extensions:
+  - Arrows
+  - BangPatterns
+  - ConstraintKinds
+  - DataKinds
+  - DefaultSignatures
+  - DeriveDataTypeable
+  - DeriveFunctor
+  - DeriveGeneric
+  - EmptyDataDecls
+  - ExtendedDefaultRules
+  - FlexibleContexts
+  - FlexibleInstances
+  - FunctionalDependencies
+  - GADTs
+  - GeneralizedNewtypeDeriving
+  - InstanceSigs
+  - KindSignatures
+  - MultiParamTypeClasses
+  - NamedFieldPuns
+  - NoImplicitPrelude
+  - NoMonomorphismRestriction
+  - OverloadedStrings
+  - PolyKinds
+  - QuasiQuotes
+  - RecursiveDo
+  - ScopedTypeVariables
+  - StandaloneDeriving
+  - TemplateHaskell
+  - TupleSections
+  - TypeFamilies
+  - TypeInType
+  - TypeOperators
+  - TypeSynonymInstances
