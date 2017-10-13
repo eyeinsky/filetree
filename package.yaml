@@ -2,7 +2,7 @@ name: filetree
 version: 0.0.1
 maintainer: eyeinsky <eyeinsky9@gmail.com>
 synopsis: Fine-grained handling of paths and filesystem trees
-description: Fine-grained handling of paths and filesystem trees
+description: See README at <https://github.com/eyeinsky/filetree#readme>
 license: MIT
 github: eyeinsky/filetree
 category: System
