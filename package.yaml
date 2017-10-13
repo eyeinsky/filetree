@@ -7,9 +7,11 @@ license: MIT
 github: eyeinsky/filetree
 category: System
 
+ghc-options: -Wall -Wno-name-shadowing
+
 dependencies:
-  - base
-  - lens
+  - base <= 4.10.0.0
+  - lens < 5
   - bytestring
   - containers
   - directory
@@ -25,8 +27,6 @@ library:
     - System.Path.File
     - System.Path.IO
     - System.File
-    - System.File.ByteString
-    - System.File.Text
     - System.FSTree
     - System.FSTree.Core
     - System.FSTree.DSL
