@@ -31,6 +31,17 @@ library:
     - System.FSTree.Core
     - System.FSTree.DSL
 
+tests:
+  spec:
+    ghc-options: -Wno-all
+    main: Main.hs
+    source-dirs: test
+    dependencies:
+      - filetree
+      - tasty
+      - tasty-hunit
+      - tasty-quickcheck
+
 default-extensions:
   - Arrows
   - BangPatterns
